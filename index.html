@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title> snake game </title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body> 
+    <div class ="board"></div>
+   <div class = "backbutton" style="
+   width: 60px;
+   height: 60px;
+   background-color: rgb(52, 52, 65);
+   border-radius: 50%;
+   margin: 20px auto;
+   ">
+    <button onclick ="reset()">Reset</button>
+   </div>
+  
+   <div class="keys" style="width: 100px; height: 100px;">
+      <div class="up key" data-key="ArrowUp" style="
+        width: 60px;
+        height: 60px;
+        background-color: rgb(52, 52, 65);
+        border-radius: 50%;
+        margin: 20px auto;
+    ">
+    <img src="up.svg" alt="up" id="up">
+    </div>
+     <div class ="down key" data-key="ArrowDown" style="
+        width: 60px;
+        height: 60px;
+        background-color: rgb(52, 52, 65);
+        border-radius: 50%;
+        margin: 20px auto;
+    ">
+    <img src="down.svg" alt="down" id="down">
+     </div>
+      <div class ="left key" data-key="ArrowLeft"  style="
+        width: 60px;
+        height: 60px;
+        background-color: rgb(52, 52, 65);
+        border-radius: 50%;
+        margin: 20px auto;
+    ">
+      <img src="left.svg" alt="left" id="left">
+      </div>
+       <div class ="right key" data-key="ArrowRight"  style="
+        width: 60px;
+        height: 60px;
+        background-color: rgb(52, 52, 65);
+        border-radius: 50%;
+        margin: 20px auto;
+    ">
+      <img src="right.svg" alt="right" id="right">
+       </div>
+   </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
